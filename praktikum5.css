@@ -1,0 +1,47 @@
+/* prakdpw5.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#tambah-barang {
+    background-color: rgb(17, 60, 202);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#tambah-barang:hover {
+    background-color: #333;
+}
+
+#halaman-kedua {
+    display: none;
+}
+
+#barang-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#barang-table th,
+#barang-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#total {
+    font-weight: bold;
+}

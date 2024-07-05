@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp3</title>
+</head>
+
+<body>
+    <form action="/submit-data-mahasiswa" method="post">
+        <fieldset style="width: fit-content;">
+            <table border="0" style="width: 890px;" height="100px" cellspacing="3" cellpadding="2">
+                <tr>
+                    <td colspan="4">
+                        <h1 align="center">STUNDENT DATA</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" bgcolor="aqua">
+                        <strong align="center">PERSONAL DATA</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 200px;">Nama</td>
+                    <td><input type="text" name="Nama" style="width: 200px;" required></td>
+                    <td><input type="text" name="Nama" style="width: 200px;" required></td>
+                    <td><input type="text" name="Nama" style="width: 200px;" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="font-size: 11px;">first name</td>
+                    <td style="font-size: 11px;">middle name</td>
+                    <td style="font-size: 11px;">last name</td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td colspan="2"><input type="text" name="nim" style="width: 415px;" required></td>
+                    <td>
+                        <label for="year of university Entrance--"></label>
+                        <select id="year of university Entrance--" name="year of university Entrance--" style="width: 210px;">
+              <option>--Year of university Entrance--</option>
+              <option>2014</option>
+              <option>2015</option>
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 300px;">Faculty, Departement & Program</td>
+            <td>
+                <label for="Faculty"></label>
+                <select id="Faculty" name="Faculty" style="width: 210px;">
+              <option>--Faculty--</option>
+              <option>Engineering</option>
+              <option>Law</option>
+              <option>Economic</option>
+            </td>
+            <td>
+              <label for="Departement"></label>
+              <select id="Departement" name="Departement" style="width: 210px;">
+              <option value="">--Departement--</option>
+              <option value="membaca">informatics</option>
+              <option value="membaca">Industrial Engineering</option>
+              <option value="membaca">Electrical Engineering</option>
+            </td>
+            <td>
+              <label for="hobi"></label>
+              <select id="hobi" name="hobi" style="width: 210px;">
+              <option value="">--Study Program--</option>
+              <option value="membaca">informatics</option>
+              <option value="bersepeda">information system</option>
+              <option value="berenang">Industrial Engineering</option>
+              <option value="berenang">Mechanical Engineering</option>
+              <option value="berenang">Mechatronic Engineering</option>
+              <option value="berenang">Electrical Engineering</option>
+            </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td><input type="radio" id="laki-laki" name="laki-laki" value="laki-laki">laki-laki
+            <input type="radio" id="perempuan" name="perempuan" value="perempuan">perempuan
+          </td>
+          
+        </tr>
+        <tr>
+          <td>email</td>
+          <td colspan="3"><input type="email" name="email" style="width: 650px;" required></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td colspan="3"><textarea style="height: 50px; width: 650px;" required></textarea></td>
+        </tr>
+    </table><br><br>
+    <table border="0" style="height: 50px;" cellspacing="0" cellpadding="3">
+            <tr>
+                <td bgcolor="aqua" style="width: 890px;">
+                    <strong align="center">SUPPORT & ACCOUNT</strong>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Do you have schoolarship support?</strong>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" checked>No
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio">Yes
+                <input type="text" style="width: 880px;" required><br><br>
+              </td>
+            </tr>
+            <tr>
+              <td>Do you have access to the trunojoyo email & account?</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio">No
+              </td>
+            </tr>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" checked>Yes
+              </td>
+            </tr>
+      </table><br> <br>
+      <table border="0" style="width: 890px;" height="100px" cellspacing="3" cellpadding="2">
+        <tr>
+            <td colspan="4" bgcolor="aqua">
+                <strong align="center">EDUCATION</strong>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 200px;">Prime school</td>
+            <td><input type="text" name="Nama" style="width: 200px;" required></td>
+            <td><input type="text" name="Nama" style="width: 200px;" required></td>
+            <td>
+              <label for="year of Graduate--"></label>
+              <select id="year of Graduate--" name="year of Graduate" style="width: 210px;">
+              <option value="">--Year of Graduate--</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="font-size: 11px;">School name</td>
+            <td style="font-size: 11px;">Website URL</td>
+        </tr>
+        <tr>
+            <td style="width: 200px;">Middle school</td>
+            <td><input type="text" name="Nama" style="width: 200px;" required></td>
+            <td><input type="text" name="Nama" style="width: 200px;" required></td>
+            <td>
+              <label for="year of Graduate"></label>
+              <select id="year of Graduate" name="year of Graduate" style="width: 210px;">
+              <option value="">--Year of Graduate--</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+            </td>   
+        </tr>
+        <tr>
+            <td></td>
+            <td style="font-size: 11px;" required>School name</td>
+            <td style="font-size: 11px;" required>Website URL</td>
+        </tr>
+        <tr>
+            <td style="width: 200px;">High school</td>
+            <td><input type="text" name="Nama" style="width: 200px;" required></td>
+            <td><input type="text" name="Nama" style="width: 200px;"required></td>
+            <td>
+              <label for="year of Graduate"></label>
+              <select id="year of Graduate" name="year of Graduate" style="width: 210px;">
+              <option value="">--Year of Graduate--</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </td>        
+        </tr>
+        <tr>
+            <td></td>
+            <td style="font-size: 11px;">School name</td>
+            <td style="font-size: 11px;">Website URL</td>
+        </tr>
+      </table><br><br>
+      <table border="0" cellspacing="2" cellpadding="3" style="width: 890px; height: 100px; font-family: Arial;">
+
+        <tr>
+            <td colspan="3" bgcolor="aqua">
+                <strong align="center">Software Skill</strong>
+            </td>
+        </tr>
+       <tr>
+        <td>Office Software</td>
+        <td><input type="checkbox">Microsoft Word</td>
+        <td><input type="checkbox">Microsoft access</td><br><br>
+       </tr>
+       <tr>
+         <td </td>
+         <td><input type="checkbox"> Microsoft Excel</td>
+         <td><input type="checkbox">Other</td>
+         <tr>
+          <td><br><br></td>
+      </tr>
+       <tr>
+        <td>Operating system</td>
+        <td><input type="checkbox">Windows</td>
+        <td><input type="checkbox">MacOs</td>
+       </tr>
+       <tr>
+        <td></td>
+        <td><input type="checkbox">Linux</td>
+        <td><input type="checkbox">Other</td>
+        <tr>
+          <td><br><br></td>
+      </tr>
+       <tr>
+        <td>Programing Language</td>
+        <td><input type="checkbox">Python</td>
+        <td><input type="checkbox">C++</td>
+       <tr>
+        <td></td>
+        <td><input type="checkbox">Java</td>
+        <td><input type="checkbox">Other</td>
+       </tr>
+       <tr>
+        <td></td>
+        <td><input type="submit" value="Submit Form">
+        </td>
+       </tr>
+      </table> 
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Barang</title>
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="praktikum5.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="halaman-pertama">
+            <h2>Order Barang</h2>
+            <h2>Nama Barang Harga barang Jumlah barang Subtotal barang</h2>
+            <hr>
+            <div id="tambah-barang-container">
+                <button id="tambah-barang">Tambah Barang</button>
+                <p>Total Harga: <span id="total-harga-pertama">0</span></p>
+            </div>
+        </div>
+        <div id="halaman-kedua" style="display: none;">
+            <div id="form-barang">
+                <table id="barang-table">
+                    <tr>
+                        <th>Nama Barang</th>
+                        <th>Harga Barang</th>
+                        <th>Jumlah Barang</th>
+                        <th>Subtotal</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="nama-barang"></td>
+                        <td><input type="number" class="harga-barang"></td>
+                        <td><input type="number" class="jumlah-barang"></td>
+                        <td class="subtotal">0</td>
+                        <td><button class="delete-row">Hapus</button></td>
+                    </tr>
+                </table>
+                <button id="simpan-barang">simpan Barang</button>
+                <p>Total: <span id="total">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="praktikum5.js"></script>
+</body>
+
+</html>
